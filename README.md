@@ -1,4 +1,4 @@
-📧 Email/SMS Spam Detection System
+📧 SpamGuard – Email/SMS Spam Detection System
 
 A Machine Learning-based web application that detects whether a message is Spam or Not Spam (Ham) using NLP techniques.
 
@@ -14,32 +14,31 @@ Machine Learning (NLP)
 HTML, CSS
 Pickle (Model serialization)
 📸 Project Screenshots
-<img width="1448" height="1086" alt="img1" src="https://github.com/user-attachments/assets/2b8a96cf-3cba-41c3-9ded-8a2694011efe" />
-<img width="849" height="776" alt="img2" src="https://github.com/user-attachments/assets/6226c87e-6314-4b03-b77a-1425ee7f43ff" />
+📨 Input Page
 
-
+🚨 Prediction Result
 
 ▶️ How to Run
-git clone https://github.com/your-username/Spam-Classifier.git
+git clone https://github.com/sinchanarokkad/SpamGuard-Email-Spam-Classifier.git
 
-cd Spam-Classifier
+cd SpamGuard-Email-Spam-Classifier
 
 pip install -r requirements.txt
 
 python app.py
 
-Open in browser:
+Then open:
 
 http://127.0.0.1:5000/
 📁 Project Structure
-Spam-Classifier/
+SpamGuard-Email-Spam-Classifier/
 │
 ├── app.py
 ├── model.pkl
 ├── vectorizer.pkl
 │
 ├── templates/
-│   ├── index.html
+│   └── index.html
 │
 ├── static/
 │   └── images/
@@ -52,3 +51,6 @@ Spam-Classifier/
 📊 Accuracy graph visualization
 📱 Mobile responsive UI
 ☁️ Deployment on cloud (Render/Heroku)
+👨‍💻 Author
+
+Sinchana R M
